@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    It creates a .git folder. It is a hidden folder that contains the
+    status of the local repository
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+    Staging area is a placeholder for bundling the files from working 
+    directory that needs to be committed to repository as a single 
+    commit.
+
