@@ -10,3 +10,30 @@ repository? What value do you think it offers?
     directory that needs to be committed to repository as a single 
     commit.
 
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+    As you make changes to the working directory, we can add files 
+    related to a logical change into staging and commit them once all 
+    the files are added for that logical change.
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+    If I want to experiment separately, I can create a branch while
+    others in the team can continue to make changes as planned. When
+    I am ready with my experiment, I can merge my changes.
+
+How do the diagrams help you visualize the branch structure?
+
+    Helps to clearly understand which features / changes have been made
+    from master in which chronological order. This will help in merging
+    code later
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+
+    Pros: Most simple merges which is the volume of the work, gets done
+    reliably and automatically by Git. This saves time. However, the 
+    areas where conflicts are present are better merged manually for 
+    more accurate code implementation.
